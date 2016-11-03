@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>西邮图书馆-搜索</title>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/search.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+</head>
+<body>
+	<div class="ul_search">
+		<div class="top_info">
+			<img src="img/3.png" id="returns">
+			<div class="top_logo">
+				<img src="img/1.png"><span>西邮图书馆</span>
+			</div>
+		</div>
+		<div class="ui_navigation">
+			<ul id="head_navigation">
+				<li id="ui_default"><span>图书搜索</span></li>
+				<li><span>新闻公告</span></li>
+				<li><span>关于我们</span></li>
+			</ul>
+		</div>
+		<div class="ui_body" id="search_book">
+			<div class="ui_search">
+				<input type="text" id="ipt_name">
+				<span id="btn_search" class="search_btn">搜索</sqan>
+			</div>
+			<div class="ui_result">
+				<div class="result_head">
+					<span id="head_left" class="left_num"></span>
+					<span class="seize_head"></span>
+					<div class="btn_head" id="head_right">
+						<span id="ui_last">首页</span><span id="ui_top">上一页</span><span id="ui_down">下一页</span><span id="ui_next">尾页</span>
+					</div>
+				</div>
+				<div class="search_result" id="search_null">
+					<span class="info_null">亲,你还没有搜索内容哦~</span>
+				</div>
+				<div class="search_result search_res" id="ui_book">
+				</div>
+				<div class="body_foot" id="foot_body">
+					<span class="foot_top">上一页</span>
+					<span class="foot_clear">清除搜索</span>
+					<span  class="foot_down">下一页</span>
+				</div>
+			</div>
+			<div class="foot_rank" id="rank_clicks">
+				<h3>排行榜</h3>
+				<div id="rank_click">
+					<div class="search_rank" data-id="1">
+						<div class="line_search" data-id="1">
+							<div class="clire_rank" data-id="1">
+								<span data-id="1" id="add_1">+</span>
+							</div>
+							<span class="search_name" data-id="1">借阅排行</span>
+						</div>
+					</div>
+					<div id="ran_1" class="rank_ui"></div>
+					<div class="search_rank" data-id="2">
+						<div class="line_search" data-id="2">
+							<div class="clire_rank" data-id="2">
+								<span data-id="2" id="add_2">+</span>
+							</div>
+							<span class="search_name" data-id="2">检索排行</span>
+						</div>
+					</div>
+					<div id="ran_2" class="rank_ui"></div>
+					<div class="search_rank" data-id="3">
+						<div class="line_search" data-id="3">
+							<div class="clire_rank" data-id="3">
+								<span data-id="3" id="add_3">+</span>
+							</div>
+							<span class="search_name" data-id="3">收藏排行</span>
+						</div>
+					</div>
+					<div id="ran_3" class="rank_ui"></div>
+					<div class="search_rank" data-id="5">
+						<div class="line_search" data-id="5">
+							<div class="clire_rank" data-id="5">
+								<span data-id="5" id="add_5">+</span>
+							</div>
+							<span class="search_name" data-id="5">查看排行</span>
+						</div>
+					</div>
+					<div id="ran_5" class="rank_ui"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="new_info" id="body_new">
+			<div class="body_navigation">
+				<div class="new_head">
+					<span>最新新闻</span>
+				</div>
+			</div>
+			<div class="new_body">
+				<ul id="add_new">
+				</ul>
+				<p class="more_see" id="news">查看更多>></p>
+			</div>
+			<div class="body_navigation">
+				<div class="new_head">
+					<span>最新公告</span>
+				</div>
+			</div>
+			<div class="new_body">
+				<ul id="add_announce">
+				</ul>
+				<p class="more_see" id="announce">查看更多>></p>
+			</div>
+			<div class="clear_1"></div>
+		</div>
+		<div class="about_our" id="about" style="display:none;">
+			<h3>产品</h3>
+			<p>1.应用名称:西邮图书馆-web版</p>
+			<p>2.实现功能:提供图书搜索，图书续借等功能</p>
+			<p>3.优点:不用下载任何应用，方便简洁，适用各个手机端</p>
+			<p>4.更多产品:</p>
+			<a href="http://score.xiyoumobile.com/">西邮成绩--web版</a>
+			<h3>使用</h3>
+			<p>1.任意浏览器都可以</p>
+			<p>2.输入网址</p>
+			<p>3.开始使用</p>
+		</div>
+		<div class="ui_foot">
+			<p>西邮移动应用开发俱乐部</p>
+		</div>
+	</div>
+	<div class="loader" id="loaders">
+        <div class="ball-pulse">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+    </div>
+</body>
+</html>

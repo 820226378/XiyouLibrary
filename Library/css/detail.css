@@ -1,0 +1,329 @@
+body{
+	padding: 0px;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+.ui_detail{
+	width: 100%;
+}
+.detail_head{
+	background: #3388cc;
+	width: 100%;
+	height: 3.5em;
+	text-align: center;
+}
+.detail_head img{
+	position: relative;
+	top: .7em;
+	left: 1em;
+	float: left;
+	width: 2.2em;
+}
+.detail_head span{
+	position: relative;
+	top: .7em;
+	left: -.7em;
+	color: #fff;
+	font-size: 1.2em;
+
+}
+.detail_body{
+	text-align: center;
+	width: 100%;
+}
+.detail_body h3{
+	margin: 10px auto;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.detail_wrap{
+	width: 95%;
+	margin: 0 auto;
+	background: #f0f0f0;
+	border-radius: 1em;
+}
+.info_detail{
+	width: 90%;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 1em;
+	position: relative;
+	top: 1em;
+	padding-bottom: 2em;
+}
+.info_head{
+	height: 3.5em;
+	text-align: center;
+	width: 100%;
+	border-right: 1px solid #f0f0f0;
+}
+.info_head span{
+	background: #f0f0f0;
+	display: inline-block;
+	width: 49.2%;
+	height: 2.5em;
+	color: #333;
+	font-weight: bold;
+	line-height: 2.5em;
+}
+#one_book{
+	background: #fff;
+	color: #333;
+}
+.info_body{
+	width: 100%;
+	padding-bottom: 2em;
+}
+.info_body img{
+	float: right;
+	width: 35%;
+	display: block;
+}
+.write_info{
+	text-align: left;
+}
+.write_info p{
+	margin: 0px;
+	padding: 7px 0px;
+}
+.book_Collection{
+	width: 38%;
+	margin: 0 auto;
+	border-radius: .5em;
+	background: #f6f6f6;
+	height: 2em;
+	border:1px solid #ddd;
+	text-shadow: 0 1px 0 #f3f3f3;
+	color: #333;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	font-family: sans-serif;
+	line-height: 2em;
+	position: relative;
+	top: 2em;
+}
+#name_bok{
+	color: #3388cc;
+}
+.book_Collection img{
+	position: relative;
+	top: .3em;
+	left: .5em;
+	float: left;
+	width: 1.5em;
+	height: 1.5em;
+}
+.clear{
+	width: 100%;
+	height: 3em;
+}
+.foot_detail{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 2.5em;
+	text-align: center;
+	font-size: .8em;
+}
+.foot_detail span{
+	display: block;
+	float: left;
+	width: 32.7%;
+	margin: 0 auto;
+	height: 2.5em;
+	border:1px solid #ddd;
+	text-shadow: 0 1px 0 #f3f3f3;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	font-family: "微软雅黑";
+	background:#f6f6f6;
+	line-height: 2.5em;
+}
+#one_info{
+	background: #3388cc;
+	color: #fff;
+}
+/*流通情况*/
+.num_book{
+	padding-top: 2em;
+	width: 100%;
+	height: 2em;
+}
+.num_book div{
+	float: left;
+	width: 50%;
+	color: #aaa;
+}
+#sum_num{
+	color: #E5A85E;
+}
+#one_num{
+	color: green;
+}
+.sum_info{
+	width: 90%;
+	margin: 0 auto;
+}
+.info_state{
+	margin-top: .5em;
+	text-align: left;
+	width: 100%;
+	border-radius: .8em;
+	border: 1px solid #3388cc;
+}
+.info_state p{
+	position: relative;
+	left: 1em;
+	margin: 8px 0px;
+}
+
+/*图书简介*/
+.info_abstract{
+	width: 100%;
+	text-align: center;
+}
+.info_abstract h3{
+	color: #333;
+}
+.abstract_body{
+	text-align: left;
+	width: 95%;
+	margin:0 auto;
+	background: #f3f3f3;
+}
+.abstract_body p{
+	padding: 2em 1em;
+	text-indent: 2.5em;
+	color: green;
+	letter-spacing: .2em;
+}
+.clear_2{
+	width: 100%;
+	height: 35.4em;
+}
+.floats{
+	width: 100%;
+}
+
+/*图书相关*/
+
+.relevant_body{
+	width: 95%;
+	padding: .6em 0em;
+	margin: 0 auto;
+	background: #f2f2f2;
+	border-radius: 1em;
+}
+.blue_body{
+	padding: 1em 0em;
+	overflow: hidden;
+	width: 90%;
+	margin: 0px auto;
+	background: #3388cc;
+	border-radius: 1em;
+	margin-top: 1em;
+}
+.white_body{
+	text-align: left;
+	border-radius: 1em;
+	width: 95%;
+	margin:0px auto;
+	background: #fff;
+	color: #333;
+}
+.white_body p{
+	padding: .3em 0em;
+	margin: 0px;
+	margin-left: 2em;
+}
+.relevant_name{
+	color: #3388cc;
+	text-decoration: underline;
+}
+
+/*加载动画*/
+.loader{
+	width: 100%;
+	background: #FBFBFB;
+}
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; 
+  }
+
+  45% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0.7; 
+  }
+
+  80% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; 
+  } 
+}
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; 
+  }
+
+  45% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0.7; 
+  }
+
+  80% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; 
+  } 
+}
+
+.ball-pulse > div:nth-child(0) {
+  -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08); 
+}
+.ball-pulse > div:nth-child(1) {
+  -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08); 
+}
+.ball-pulse > div:nth-child(2) {
+  -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08); 
+}
+.ball-pulse > div:nth-child(3) {
+  -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08); 
+}
+.ball-pulse > div {
+  background-color: #F0A050;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  display: inline-block; 
+  position: relative;
+  top: 16em;
+  left: 9.8em;
+
+}
+@media screen and (min-width: 420px) {
+    body{
+    	box-sizing:border-box;
+    	width: 375px;
+    	margin: 0 auto;
+    }
+    .foot_detail{
+    	position: relative;
+    }
+}
+

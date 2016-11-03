@@ -1,0 +1,93 @@
+body,p{
+	padding: 0px;
+	margin:0px;
+}
+.wamp{
+	width: 100%;
+}
+.info_head{
+	width: 100%;
+	height: 3em;
+	background: #3388cc;
+	text-align: center;
+	line-height: 3em;
+}
+#returns{
+	width: 2.5em;
+	float: left;
+	height: 2.5em;
+	position: relative;
+	top: .4em;
+	left: 1em;
+}
+#info_cancellation{
+	width: 2.2em;
+	height: 2.2em;
+	float: right;
+	position: relative;
+	top: .3em;
+	left: -1em;
+}
+.info_head span{
+	font-size: 1.5em;
+	color: #fff;
+}
+.info_body{
+	width: 40%;
+	padding-top: 4em;
+	position: relative;
+	left: -3em;
+	margin: 0 auto;
+}
+.body_input label{
+	display: inline-block;
+	width: 5em;
+}
+.input_info{
+	height: 4em;
+	line-height: 4em;
+}
+.body_input input{
+	padding-top: .2em;
+	padding-left: 7em;
+	text-align: left;
+    width: 100%;
+    color: gray;
+    outline: 0;
+    border-color: rgba(0,0,0,.15);
+   	border-radius: 0.6em;
+   	box-shadow: 0 1px 3px rgba(0,0,0,.15);
+   	margin: 0;
+    min-height: 2.2em;
+}
+.body_input label{
+	position: absolute;
+	color: gray;
+	left: .7em;
+	font-size: .9em;
+	margin-top: .15em;
+}
+.confirm{
+	text-align: center;
+	width: 15.5em;
+	margin: 0 auto;
+	border-radius: .5em;
+	background: #f6f6f6;
+	height: 2em;
+	border:1px solid #ddd;
+	text-shadow: 0 1px 0 #f3f3f3;
+	color: #333;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	line-height: 2em;
+	position: relative;
+	top: 4em;
+}
+
+@media screen and (min-width: 420px) {
+    body{
+    	box-sizing:border-box;
+    	width: 375px;
+    	margin: 0 auto;
+    }
+}

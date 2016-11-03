@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>西邮图书馆-信息</title>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/myinfo.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/myinfo.css">
+</head>
+<body>
+	<div class="wamp">
+		<div class="info_head">
+			<img src="img/3.png" id="returns">
+			<span>我的信息</span>
+			<img src="img/modify.png" id="info_modify">
+		</div>
+		<div class="info_body">
+			<img src="img/info.png">
+			<div class="info_my" id="info" style="display:none">
+				<P>专业：<span id="major"></span></P>
+				<p>学号：<span id="username"></span></p>
+				<p>姓名：<span id="name"></span></p>
+				<p>欠费金额：<span id="number"></span></p>
+				<div id="cancellation">注销登录</div>
+			</div>
+			<div class="loader" id="loaders">
+		        <div class="ball-pulse">
+		          <div></div>
+		          <div></div>
+		          <div></div>
+		        </div>
+		    </div>
+		</div>
+		<div class="info_foot">西邮移动应用开发俱乐部</div>
+	</div>
+</body>
+</html>

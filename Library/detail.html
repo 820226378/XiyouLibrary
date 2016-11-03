@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>西邮图书馆-详情</title>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/detail.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+</head>
+<body>
+	<div class="ui_detail">
+		<div class="detail_head">
+			<img src="img/3.png" id="returns">
+			<span>图书详情</span>
+		</div>
+		<div class="detail_body" id="book_body" style="display:none">
+			<h3>图书的基本资料</h3>
+			<div class="detail_wrap">
+				<div class="info_detail">
+					<div class="info_head">
+						<span id="one_book">书籍资料</span>
+						<span id="circulation">流通情况</span>
+					</div>
+					<div class="info_body" id="books">
+						<img src="img/book.png" id="img_1">
+						<div class="write_info">
+							<p id="name_bok"></p>
+							<p id="sort"></p>
+							<p id="author"></p>
+							<p id="forms">页数：暂无</p>
+							<p id="price">价格：暂无</p>
+							<p id="binding">装订：暂无</p>
+							<p id="pub"></p>
+							<p id="pubdata">出版日期：暂无</p>
+							<p id="isbn">标准号: 暂无</p>
+						</div>
+						<div class="book_Collection" id="collection">
+							<img src="img/4.png"><span>加入收藏</span>
+						</div>
+					</div>
+					<div class="info_circulation" id="book_num" style="display:none">
+						<div class="num_book">
+							<div>
+								<span>共有图书：</span><span id="sum_num"> </span><span>本</span>
+							</div>
+							<div>
+								<span>可借图书：</span><span id="one_num"> </span><span>本</span>
+							</div>
+						</div>
+						<div class="sum_info" id="info_st">
+							
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="loader" id="loaders">
+	        <div class="ball-pulse">
+	          <div></div>
+	          <div></div>
+	          <div></div>
+	        </div>
+	    </div>
+		<div class="info_abstract" id="abstract" style="display:none">
+			<div class="floats">
+				<h3>图书简介</h3>
+				<div class="abstract_body">
+					<p id="content_info">亲~暂时没有任何简介哦~</p>
+				</div>
+			</div>
+		</div>
+		<div class="book_relevant info_abstract" id="relevant" style="display:none">
+				<h3>相关图书</h3>
+				<div class="relevant_body" id="body_relevant">		
+					
+				</div>
+		</div>
+		<div class="clear"></div>
+		<div class="foot_detail" id="foots_detail">
+			<span id="one_info">基本资料</span>
+			<span id="two_info">摘要</span>
+			<span id="three_info">相关</span>
+		</div>
+	</div>
+</body>
+</html>

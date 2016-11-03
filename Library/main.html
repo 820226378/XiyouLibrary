@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>西邮图书馆-主页</title>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="ui_wamp">
+		<div class="ui_head">
+			<img src="img/main.png" class="main_left" id="my_info">
+			<span>我的</span>
+			<img src="img/search.png" class="user_right" id="search_ui">
+		</div>
+		<div class="ui_body" id="body_ui">
+			<h3>您的借阅情况如下</h3>
+			<div class="info_body">
+				<div class="info_head">
+					<div>
+						<span>已借图书：</span>
+						<span class="span_blue" id="span_1">0</span>
+						<span>本</span>
+					</div>
+					<div>
+						<span>剩余可借：</span>
+						<span class="span_green" id="span_2">15</span>
+						<span>本</span>
+					</div>
+					<div>
+						<span>续借图书：</span>
+						<span class="span_yellow" id="span_3">0</span>
+						<span>本</span>
+					</div>
+					<div>
+						<span>超期图书：</span>
+						<span class="span_red" id="span_4">0</span>
+						<span>本</span>
+					</div>
+				</div>
+				<div class="book_sum" id="book_info" style="display:none">
+					<div class="white_wamp">
+						<p class="info_null">亲~你还没有借过书哦~快去借一本吧！</p>
+					</div>
+				</div>
+				<div class="loader" id="loaders">
+			        <div class="ball-pulse">
+			          <div></div>
+			          <div></div>
+			          <div></div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="book_collection" id="collection_book" style="display:none">
+			<h3>收藏的图书如下</h3>
+			<div class="book_sum" id="book_coll">
+				<div class="wrap">
+					<p>亲~你还没有收藏任何图书，快去收藏几本吧！！</p>
+				</div>
+			</div>
+		</div>
+		<div class="book_history" id="history_book" style="display:none">
+			<h3>您曾借过的图书如下</h3>
+			<div class="wamp" id="history_sum">
+				<p class="info_null">亲~你还没有借过书哦~快去借一本吧！</p>
+			</div>
+		</div>
+		<div class="ui_foot" id="foot">
+			<span id="borrow">已借图书</span>
+			<span id="collection">我的收藏</span>
+			<span id="history">借阅历史</span>
+		</div>
+	</div>
+</body>
+</html>
